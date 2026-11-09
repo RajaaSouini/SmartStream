@@ -1,0 +1,25 @@
+{
+  "name": "smartstream",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RajaaSouini/SmartStream.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RajaaSouini/SmartStream/issues"
+  },
+  "homepage": "https://github.com/RajaaSouini/SmartStream#readme",
+  "dependencies": {
+    "@tailwindcss/cli": "^4.3.5",
+    "tailwindcss": "^4.3.5"
+  },
+    "scripts": { "dev": "npx @tailwindcss/cli -i ./src/input.css -o ./dist/output.css --watch" }
+}
