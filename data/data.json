@@ -1,0 +1,290 @@
+[
+  {
+    "id": "1",
+    "channelNumber": "1057",
+    "name": "FR - DISCOVERY ID FHD",
+    "category": "DOCUMENTAIRE",
+    "logo": "https://placehold.co/60x60/1e293b/f8fafc/png?text=Discovery",
+    "previewImage": "https://placehold.co/800x450/0f172a/f8fafc/png?text=Discovery+Show",
+    "streamUrl": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+    "isLive": true,
+    "epg": {
+      "currentProgram": "Habitations en péril",
+      "startTime": "20:50",
+      "endTime": "21:45",
+      "progressPercentage": 65
+    }
+  },
+  {
+    "id": "2",
+    "channelNumber": "1058",
+    "name": "FR - TLC FHD",
+    "category": "DOCUMENTAIRE",
+    "logo": "https://placehold.co/60x60/1e293b/f8fafc/png?text=TLC",
+    "previewImage": "https://placehold.co/800x450/0f172a/f8fafc/png?text=TLC+Show",
+    "streamUrl": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+    "isLive": true,
+    "epg": {
+      "currentProgram": "La maison de mes rêves",
+      "startTime": "20:30",
+      "endTime": "21:20",
+      "progressPercentage": 40
+    }
+  },
+  {
+    "id": "3",
+    "channelNumber": "1067",
+    "name": "FR - RMC DECOUVERTE FHD",
+    "category": "DOCUMENTAIRE",
+    "logo": "https://placehold.co/60x60/1e293b/f8fafc/png?text=RMC",
+    "previewImage": "https://placehold.co/800x450/0f172a/f8fafc/png?text=RMC+Show",
+    "streamUrl": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+    "isLive": true,
+    "epg": {
+      "currentProgram": "Hors de contrôle : Les megastructures",
+      "startTime": "21:05",
+      "endTime": "22:00",
+      "progressPercentage": 20
+    }
+  },
+  {
+    "id": "4",
+    "channelNumber": "1070",
+    "name": "FR - NATURE PLANET FHD",
+    "category": "DOCUMENTAIRE",
+    "logo": "https://placehold.co/60x60/1e293b/f8fafc/png?text=Nature",
+    "previewImage": "https://placehold.co/800x450/0f172a/f8fafc/png?text=Nature+Show",
+    "streamUrl": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+    "isLive": true,
+    "epg": {
+      "currentProgram": "Les secrets de l'océan",
+      "startTime": "20:15",
+      "endTime": "21:15",
+      "progressPercentage": 75
+    }
+  },
+  {
+    "id": "5",
+    "channelNumber": "2001",
+    "name": "FR - SPORT ARENA 1 FHD",
+    "category": "SPORT",
+    "logo": "https://placehold.co/60x60/1e293b/f8fafc/png?text=Arena1",
+    "previewImage": "https://placehold.co/800x450/0f172a/f8fafc/png?text=Arena1+Show",
+    "streamUrl": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+    "isLive": true,
+    "epg": {
+      "currentProgram": "Ligue 1 : match en direct",
+      "startTime": "20:45",
+      "endTime": "22:45",
+      "progressPercentage": 30
+    }
+  },
+  {
+    "id": "6",
+    "channelNumber": "2002",
+    "name": "FR - SPORT ARENA 2 FHD",
+    "category": "SPORT",
+    "logo": "https://placehold.co/60x60/1e293b/f8fafc/png?text=Arena2",
+    "previewImage": "https://placehold.co/800x450/0f172a/f8fafc/png?text=Arena2+Show",
+    "streamUrl": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+    "isLive": true,
+    "epg": {
+      "currentProgram": "Top 14 : le résumé",
+      "startTime": "20:00",
+      "endTime": "21:30",
+      "progressPercentage": 85
+    }
+  },
+  {
+    "id": "7",
+    "channelNumber": "2003",
+    "name": "FR - TENNIS LIVE FHD",
+    "category": "SPORT",
+    "logo": "https://placehold.co/60x60/1e293b/f8fafc/png?text=Tennis",
+    "previewImage": "https://placehold.co/800x450/0f172a/f8fafc/png?text=Tennis+Show",
+    "streamUrl": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+    "isLive": true,
+    "epg": {
+      "currentProgram": "Masters : demi-finale",
+      "startTime": "19:30",
+      "endTime": "22:00",
+      "progressPercentage": 55
+    }
+  },
+  {
+    "id": "8",
+    "channelNumber": "2004",
+    "name": "FR - FORMULA ZONE FHD",
+    "category": "SPORT",
+    "logo": "https://placehold.co/60x60/1e293b/f8fafc/png?text=F1",
+    "previewImage": "https://placehold.co/800x450/0f172a/f8fafc/png?text=F1+Show",
+    "streamUrl": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+    "isLive": true,
+    "epg": {
+      "currentProgram": "Grand Prix : essais libres",
+      "startTime": "20:00",
+      "endTime": "21:30",
+      "progressPercentage": 10
+    }
+  },
+  {
+    "id": "9",
+    "channelNumber": "3001",
+    "name": "FR - CINE PREMIERE FHD",
+    "category": "CINEMA",
+    "logo": "https://placehold.co/60x60/1e293b/f8fafc/png?text=Cine1",
+    "previewImage": "https://placehold.co/800x450/0f172a/f8fafc/png?text=Cine1+Show",
+    "streamUrl": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+    "isLive": true,
+    "epg": {
+      "currentProgram": "Le dernier voyage",
+      "startTime": "20:55",
+      "endTime": "22:50",
+      "progressPercentage": 45
+    }
+  },
+  {
+    "id": "10",
+    "channelNumber": "3002",
+    "name": "FR - CINE CLASSIC FHD",
+    "category": "CINEMA",
+    "logo": "https://placehold.co/60x60/1e293b/f8fafc/png?text=Classic",
+    "previewImage": "https://placehold.co/800x450/0f172a/f8fafc/png?text=Classic+Show",
+    "streamUrl": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+    "isLive": true,
+    "epg": {
+      "currentProgram": "Les nuits blanches",
+      "startTime": "21:00",
+      "endTime": "22:40",
+      "progressPercentage": 25
+    }
+  },
+  {
+    "id": "11",
+    "channelNumber": "3003",
+    "name": "FR - CINE ACTION FHD",
+    "category": "CINEMA",
+    "logo": "https://placehold.co/60x60/1e293b/f8fafc/png?text=Action",
+    "previewImage": "https://placehold.co/800x450/0f172a/f8fafc/png?text=Action+Show",
+    "streamUrl": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+    "isLive": true,
+    "epg": {
+      "currentProgram": "Course contre la montre",
+      "startTime": "20:40",
+      "endTime": "22:30",
+      "progressPercentage": 60
+    }
+  },
+  {
+    "id": "12",
+    "channelNumber": "3004",
+    "name": "FR - CINE FAMILLE FHD",
+    "category": "CINEMA",
+    "logo": "https://placehold.co/60x60/1e293b/f8fafc/png?text=Famille",
+    "previewImage": "https://placehold.co/800x450/0f172a/f8fafc/png?text=Famille+Show",
+    "streamUrl": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+    "isLive": true,
+    "epg": {
+      "currentProgram": "L'aventure du siècle",
+      "startTime": "20:30",
+      "endTime": "22:15",
+      "progressPercentage": 70
+    }
+  },
+  {
+    "id": "13",
+    "channelNumber": "4001",
+    "name": "FR - INFO 24 FHD",
+    "category": "INFO",
+    "logo": "https://placehold.co/60x60/1e293b/f8fafc/png?text=Info24",
+    "previewImage": "https://placehold.co/800x450/0f172a/f8fafc/png?text=Info24+Show",
+    "streamUrl": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+    "isLive": true,
+    "epg": {
+      "currentProgram": "Le journal de 21h",
+      "startTime": "21:00",
+      "endTime": "21:45",
+      "progressPercentage": 35
+    }
+  },
+  {
+    "id": "14",
+    "channelNumber": "4002",
+    "name": "FR - MONDE INFO FHD",
+    "category": "INFO",
+    "logo": "https://placehold.co/60x60/1e293b/f8fafc/png?text=Monde",
+    "previewImage": "https://placehold.co/800x450/0f172a/f8fafc/png?text=Monde+Show",
+    "streamUrl": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+    "isLive": true,
+    "epg": {
+      "currentProgram": "Débat : l'actualité",
+      "startTime": "20:30",
+      "endTime": "21:30",
+      "progressPercentage": 80
+    }
+  },
+  {
+    "id": "15",
+    "channelNumber": "4003",
+    "name": "FR - ECO NEWS FHD",
+    "category": "INFO",
+    "logo": "https://placehold.co/60x60/1e293b/f8fafc/png?text=Eco",
+    "previewImage": "https://placehold.co/800x450/0f172a/f8fafc/png?text=Eco+Show",
+    "streamUrl": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+    "isLive": true,
+    "epg": {
+      "currentProgram": "Les marchés en direct",
+      "startTime": "20:45",
+      "endTime": "21:15",
+      "progressPercentage": 50
+    }
+  },
+  {
+    "id": "16",
+    "channelNumber": "5001",
+    "name": "FR - KIDS FUN FHD",
+    "category": "JEUNESSE",
+    "logo": "https://placehold.co/60x60/1e293b/f8fafc/png?text=Kids",
+    "previewImage": "https://placehold.co/800x450/0f172a/f8fafc/png?text=Kids+Show",
+    "streamUrl": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+    "isLive": true,
+    "epg": {
+      "currentProgram": "Les petits explorateurs",
+      "startTime": "19:30",
+      "endTime": "20:30",
+      "progressPercentage": 90
+    }
+  },
+  {
+    "id": "17",
+    "channelNumber": "5002",
+    "name": "FR - TOON TIME FHD",
+    "category": "JEUNESSE",
+    "logo": "https://placehold.co/60x60/1e293b/f8fafc/png?text=Toon",
+    "previewImage": "https://placehold.co/800x450/0f172a/f8fafc/png?text=Toon+Show",
+    "streamUrl": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+    "isLive": true,
+    "epg": {
+      "currentProgram": "Super Héros en herbe",
+      "startTime": "20:00",
+      "endTime": "20:45",
+      "progressPercentage": 15
+    }
+  },
+  {
+    "id": "18",
+    "channelNumber": "5003",
+    "name": "FR - JUNIOR TV FHD",
+    "category": "JEUNESSE",
+    "logo": "https://placehold.co/60x60/1e293b/f8fafc/png?text=Junior",
+    "previewImage": "https://placehold.co/800x450/0f172a/f8fafc/png?text=Junior+Show",
+    "streamUrl": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+    "isLive": true,
+    "epg": {
+      "currentProgram": "Le monde de Léo",
+      "startTime": "19:45",
+      "endTime": "20:35",
+      "progressPercentage": 95
+    }
+  }
+]
