@@ -13,7 +13,7 @@ export function renderChannels(channels){
         div.innerHTML = ` <p class="text-[#A3ADC2] flex justify-between">${group.category} <span class="text-[#A3ADC2]">${group.items.length}</span></p>`;
 
         group.items.forEach((channel) =>{
-            div.innerHTML += ` <button class="flex gap-8 border border-[#26314D] rounded-xl p-2 w-full items-center">
+            div.innerHTML += ` <button data-id="${channel.id}" class="flex gap-8 border border-[#26314D] rounded-xl p-2 w-full items-center">
                     <p class="text-[#A3ADC2]">${channel.channelNumber}</p>
                     <img src="${channel.logo}" class="size-12" alt="imgCh">
                     <div>
