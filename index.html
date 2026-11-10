@@ -21,13 +21,18 @@
                 <button class="bg-[#1E2740] border border-[#A3ADC2] rounded-3xl p-2 flex gap-2"><p class="text-[#6A4BF0]">MR</p>Maroc</button>
             </div>
         </div>
+        <input class="text-[#A3ADC2] rounded-xl p-2 w-full border border-[#A3ADC2]" type="text" placeholder="Recherche Tv">
         <!--spinner-->
         <div id="loader" class=" p-6 text-center hidden">
             <div class="mx-auto h-8 w-8 animate-spin rounded-full border-4 border-gray-300 border-t-red-500" ></div>
             <p class="mt-2 text-[#E8ECF5]">Chargement ...</p>
         </div>
-        <div class="flex flex-col gap-8">
-            <input class="text-[#A3ADC2] rounded-xl p-2 w-full border border-[#A3ADC2]" type="text" placeholder="Recherche Tv">
+        <!--Message d'erreur-->
+        <div id="error" class="hidden p-6 text-center">
+            <p id="error-message" class="text-red-400"></p>
+            <button id="retry-button" class="mt-3 bg-red-500 px-4 py-2 text-white">Réssayer</button>
+        </div>
+        <div class="flex flex-col gap-8">              
             <div class="flex flex-col gap-4">
                 <p class="text-[#A3ADC2] flex justify-between">DOCUMENTAIRE <span class="text-[#A3ADC2]">3</span></p>
                 <button class="flex gap-8 border border-[#26314D] rounded-xl p-2 w-full items-center">

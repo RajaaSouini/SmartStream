@@ -14,3 +14,7 @@ Champs de recherche #151C2E
 texte principale #E8ECF5
 texte secondaire #A3ADC2
 texte sur fond coloré #FFFFFF
+
+
+
+config.js (le lien)  →  api.js (fetch)  →  main.js (reçoit la liste)  →  affichage
