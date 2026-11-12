@@ -55,12 +55,28 @@ SmartStream/
 └── index.html  **la page html principale**
 └── package-lock.json
 
+## Fonctionnalités
+
+Chargement des chaines depuis Mockapi (fetch , async/await)
+Spinner et erreur avec le boutton réessayer
+Chaines groupées par catégorie 
+Filtre par pays (sidebar)
+recherche par nom , numéro , catégorie ou programme
+Prévisualisation de la chaine séléctionnée 
+Interface responsive avec tailwind 
 
 
 config.js (le lien)  =>  api.js (fetch)  =>  main.js (reçoit la liste)  =>  affichage
 ## Technologies utiliser 
 
-HTML5 , Tailwind , Javascript , 
+HTML5 , Tailwind , Javascript ES6, Mockapi 
+
+## Installation 
+
+1 . Cloner : git clone 
+2 . le package : npm install 
+3 . lancer tailwind : npm run dev 
+
 ## Links 
 Lien du repot github : https://github.com/RajaaSouini/SmartStream.git
 
