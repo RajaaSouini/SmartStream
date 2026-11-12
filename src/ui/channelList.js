@@ -6,6 +6,13 @@ export function renderChannels(channels){
 
     container.innerHTML = "";
 
+    if(channels.length  === 0){
+        container.innerHTML = `
+            <p class="text-[#A3ADC2] text-center p-6">Aucun résultat</p>
+        `;
+        return;
+    }
+
     groups.forEach((group) => {
         const div = document.createElement('div');
         div.className = 'flex flex-col gap-4';

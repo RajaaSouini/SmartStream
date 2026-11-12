@@ -4,6 +4,7 @@ import { showError , hideError } from "./ui/error.js";
 import { renderChannels } from "./ui/channelList.js";
 import { renderPreview } from "./ui/preview.js";
 import { renderCountries } from "./ui/countryList.js";
+import { filterChannels } from "./utils/filter.js";
 async function init() {
     hideError();
     showLoader();
