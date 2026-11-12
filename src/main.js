@@ -12,10 +12,26 @@ async function init() {
     try{
         const channels = await getChannels();
         const sidebar = document.getElementById('country-sidebar');
+        const searchInput = document.getElementById('search-input');
+        //search
+        let selectedCountry = "all";
+
+        function updateList(){
+            let result = channels;
+
+            if(selectedCountry !== "all"){
+                result = channels.filter((c) => c.country === selectedCountry);
+            }
+
+            result = filterChannels(result);
+            renderChannels(result) ;
+        }
 
         renderChannels(channels);
         renderCountries(channels);
         console.log(channels);
+
+        searchInput.addEventListener('input' , updateList);
 
         //ouvrir et fermer le panneau 
         document.getElementById('country-toggle').addEventListener('click', ()=>{
