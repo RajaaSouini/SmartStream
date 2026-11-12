@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./dist/output.css">
+</head>
+<body class="lg:flex  lg:flex-row flex flex-col-reverse ">
+    <!--sidebar-->
+    <div id="country-sidebar" class="hidden fixed top-0 left-0 h-full w-72 bg-[#0F1523] p-6 z-10">
+        <div class="flex flex-col gap-4">
+            <div class="flex justify-between text-[#E8ECF5]">
+                <p class="text-xl font-bold">Pays</p>
+                <button id="country-close">X</button>
+            </div>
+            <div id="country-list" class="flex flex-col gap-2"></div>
+        </div>
+    </div>
+    <header class="bg-[#0F1523]  lg:w-200 w-full p-8 flex flex-col gap-8">
+        <nav>
+            <img class="w-70" src="/assets/images/logo.png" alt="Logo">
+        </nav>
+        <button id="country-toggle" class="bg-[#1E2740] border border-[#E8ECF5] rounded-3xl p-2 text-[#E8ECF5]">
+            Pays
+        </button>
+        <!-- A ajouter plus tard favori
+        <div class="flex flex-col gap-4">
+            <p class="text-[#A3ADC2]">pays</p>
+            <div class="text-[#E8ECF5] flex gap-2 flex-wrap">
+                <button class="bg-[#1E2740] border border-[#A3ADC2] rounded-3xl p-2 flex gap-2"><p class="text-[#6A4BF0]">FR</p>France</button>
+                <button class="bg-[#1E2740] border border-[#A3ADC2] rounded-3xl p-2 flex gap-2"><p class="text-[#6A4BF0]">MR</p>Maroc</button>
+                <button class="bg-[#1E2740] border border-[#A3ADC2] rounded-3xl p-2 flex gap-2"><p class="text-[#6A4BF0]">ES</p>Espagne</button>
+                <button class="bg-[#1E2740] border border-[#A3ADC2] rounded-3xl p-2 flex gap-2"><p class="text-[#6A4BF0]">FR</p>France</button>
+                <button class="bg-[#1E2740] border border-[#A3ADC2] rounded-3xl p-2 flex gap-2"><p class="text-[#6A4BF0]">MR</p>Maroc</button>
+            </div>
+        </div>-->
+        <input id="search-input" class="text-[#A3ADC2] rounded-xl p-2 w-full border border-[#A3ADC2]" type="text" placeholder="Recherche Tv">
+        <!--spinner-->
+        <div id="loader" class=" p-6 text-center hidden">
+            <div class="mx-auto h-8 w-8 animate-spin rounded-full border-4 border-gray-300 border-t-red-500" ></div>
+            <p class="mt-2 text-[#E8ECF5]">Chargement ...</p>
+        </div>
+        <!--Message d'erreur-->
+        <div id="error" class="hidden p-6 text-center">
+            <p id="error-message" class="text-red-400"></p>
+            <button id="retry-button" class="mt-3 bg-red-500 px-4 py-2 text-white">Réssayer</button>
+        </div>
+        <div id="channel-list" class="flex flex-col gap-8"></div>
+    </header>
+    <main class="bg-[#0B0F1A] w-full text-white p-8 flex flex-col gap-8">
+        <div class="flex items-center justify-between w-80">
+            <p id="country-title" class="text-[#E8ECF5] text-3xl font-mono font-bold">Espagne</p>
+            <p class="text-[#A3ADC2]"><span class="enDirect"></span>2 Chaines en direct</p>
+        </div>
+        <div>
+            <video id="preview-video" controls muted poster="./assets/images/imageDefault.jpg" src="" class="rounded-4xl w-[80%]"></video>
+            <!--<img id="preview-image" src="./assets/images/imageDefault.jpg" class="rounded-4xl w-[80%]" alt="Image video">-->
+        </div>
+        <h2 id="preview-title" class="text-[#E8ECF5] text-2xl font-bold"></h2>
+        <article class="w-[80%] bg-[#1B2338] rounded-xl p-4 flex flex-col gap-4">
+            <div class="flex justify-between">
+                <div>
+                    <p class="text-[#6A4BF0]">En ce moment</p>
+                    <p class="text-[#E8ECF5]">Nom de ce qui est en direct</p>
+                </div>
+                <div>
+                    <p class="text-[#E8ECF5]">20:50-21:45</p>
+                    <P class="text-[#A3ADC2]">60% écoulé</P>
+                </div>
+            </div>
+            <div class="w-full bg-[#26314D] rounded-full h-2 ">
+                <div class="bg-[#6A4BF0] h-2 rounded-full" style="width: 60%"></div>
+            </div>
+
+        </article>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/hls.js@1"></script>
+    <script type="module" src="./src/main.js" ></script>
+</body>
+</html>
+
+
+
+
+
+ <!--
+                <div class="flex flex-col gap-8">              
+            <div class="flex flex-col gap-4">
+                <p class="text-[#A3ADC2] flex justify-between">DOCUMENTAIRE <span class="text-[#A3ADC2]">3</span></p>
+                <button class="flex gap-8 border border-[#26314D] rounded-xl p-2 w-full items-center">
+                    <p class="text-[#A3ADC2]">301</p>
+                    <img src="./assets/images/mbc5.webp" class="size-12" alt="imgCh">
+                    <div>
+                        <h2 class="text-[#E8ECF5]">Title de la chaine</h2>
+                        <p class="text-[#A3ADC2]">description petite</p>
+                    </div>
+                </button>
+                <button class="flex gap-8 border border-[#26314D] rounded-xl p-2 w-full items-center">
+                    <p class="text-[#A3ADC2]">301</p>
+                    <img src="./assets/images/mbc5.webp" class="size-12" alt="imgCh">
+                    <div>
+                        <h2 class="text-[#E8ECF5]">Title de la chaine</h2>
+                        <p class="text-[#A3ADC2]">description petite</p>
+                    </div>
+                </button>
+               <button class="flex gap-8 border border-[#26314D] rounded-xl p-2 w-full items-center">
+                    <p class="text-[#A3ADC2]">301</p>
+                    <img src="./assets/images/mbc5.webp" class="size-12" alt="imgCh">
+                    <div>
+                        <h2 class="text-[#E8ECF5]">Title de la chaine</h2>
+                        <p class="text-[#A3ADC2]">description petite</p>
+                    </div>
+                </button>
+            </div>
+            <div class="flex flex-col gap-4">
+                <p class="text-[#A3ADC2] flex justify-between">DOCUMENTAIRE <span class="text-[#A3ADC2]">3</span></p>
+                <button class="flex gap-8 border border-[#26314D] rounded-xl p-2 w-full items-center">
+                    <p class="text-[#A3ADC2]">301</p>
+                    <img src="./assets/images/mbc5.webp" class="size-12" alt="imgCh">
+                    <div>
+                        <h2 class="text-[#E8ECF5]">Title de la chaine</h2>
+                        <p class="text-[#A3ADC2]">description petite</p>
+                    </div>
+                </button>
+                <button class="flex gap-8 border border-[#26314D] rounded-xl p-2 w-full items-center">
+                    <p class="text-[#A3ADC2]">301</p>
+                    <img src="./assets/images/mbc5.webp" class="size-12" alt="imgCh">
+                    <div>
+                        <h2 class="text-[#E8ECF5]">Title de la chaine</h2>
+                        <p class="text-[#A3ADC2]">description petite</p>
+                    </div>
+                </button>
+               <button class="flex gap-8 border border-[#26314D] rounded-xl p-2 w-full items-center">
+                    <p class="text-[#A3ADC2]">301</p>
+                    <img src="./assets/images/mbc5.webp" class="size-12" alt="imgCh">
+                    <div>
+                        <h2 class="text-[#E8ECF5]">Title de la chaine</h2>
+                        <p class="text-[#A3ADC2]">description petite</p>
+                    </div>
+                </button>
+            </div>
+           <div class="flex flex-col gap-4">
+                <p class="text-[#A3ADC2] flex justify-between">DOCUMENTAIRE <span class="text-[#A3ADC2]">3</span></p>
+                <button class="flex gap-8 border border-[#26314D] rounded-xl p-2 w-full items-center">
+                    <p class="text-[#A3ADC2]">301</p>
+                    <img src="./assets/images/mbc5.webp" class="size-12" alt="imgCh">
+                    <div>
+                        <h2 class="text-[#E8ECF5]">Title de la chaine</h2>
+                        <p class="text-[#A3ADC2]">description petite</p>
+                    </div>
+                </button>
+                <button class="flex gap-8 border border-[#26314D] rounded-xl p-2 w-full items-center">
+                    <p class="text-[#A3ADC2]">301</p>
+                    <img src="./assets/images/mbc5.webp" class="size-12" alt="imgCh">
+                    <div>
+                        <h2 class="text-[#E8ECF5]">Title de la chaine</h2>
+                        <p class="text-[#A3ADC2]">description petite</p>
+                    </div>
+                </button>
+               <button class="flex gap-8 border border-[#26314D] rounded-xl p-2 w-full items-center">
+                    <p class="text-[#A3ADC2]">301</p>
+                    <img src="./assets/images/mbc5.webp" class="size-12" alt="imgCh">
+                    <div>
+                        <h2 class="text-[#E8ECF5]">Title de la chaine</h2>
+                        <p class="text-[#A3ADC2]">description petite</p>
+                    </div>
+                </button>
+            </div>
+        </div>
+        
+        -->
