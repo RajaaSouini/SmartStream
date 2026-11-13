@@ -233,3 +233,13 @@ console.log(panierRecupere[0]); // 'Livre'
 ● regex pattern
 
 on utilise regex pour dire à l'utilisateur quoi entrer exactement , alors on gère l'input avec 
+
+Hoisting : Le hoisting est un comportement de JavaScript qui déplace virtuellement les déclarations de variables et de fonctions en haut de leur portée avant l’exécution. Ainsi, une fonction peut être appelée avant l’endroit où elle est écrite dans le code.
+
+Event Loop : L’Event Loop est le mécanisme de JavaScript qui orchestre le code asynchrone : elle surveille la Call Stack et la file des tâches en attente, et les exécute au bon moment pour que le programme ne se bloque pas.
+
+AJAX (Asynchronous JavaScript and XML) : AJAX est une technique qui permet à une page web d’échanger des données avec un serveur en arrière-plan, sans avoir à se recharger entièrement.
+
+XMLHttpRequest (XHR) : XMLHttpRequest est un objet JavaScript qui permet d’envoyer des requêtes HTTP et de recevoir la réponse du serveur, et qui est à la base de la technique AJAX.
+
+PWA (Progressive Web App) : Une PWA est une application web qui se comporte comme une application mobile : elle peut être installée sur l’appareil et fonctionner même sans connexion internet.
