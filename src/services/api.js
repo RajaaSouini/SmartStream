@@ -16,7 +16,7 @@ export async function getChannels(){
             throw new Error('erreur 500 du serveur ');
         }
         
-        throw new Error('Erreur  :' + response.status);
+        throw new Error('Erreur  :' + response.status); 
     }catch (error){
         throw error ; 
     }

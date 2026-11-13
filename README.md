@@ -80,7 +80,7 @@ HTML5 , Tailwind , Javascript ES6, Mockapi
 ## Links 
 Lien du repot github : https://github.com/RajaaSouini/SmartStream.git
 
-Lien du site heberger :
+Lien du site heberger : https://smartstream-rosy.vercel.app/
 
 Lien de la plannification sur Jira : https://rajaasouini.atlassian.net/jira/software/projects/SS/boards/68/backlog?atlOrigin=eyJpIjoiNmQxYjY2OTAyNGZkNDAxODg3YWQxMWJiNzMyNTgwNzEiLCJwIjoiaiJ9
 
